@@ -1,1 +1,9 @@
 python 3.9
+rasterio
+pandas
+geopandas
+image_slicer
+numpy
+opencv-python
+matplotlib
+shapely
