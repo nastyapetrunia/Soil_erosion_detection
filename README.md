@@ -44,4 +44,4 @@ Now plotting polygons over raster:
 ![plotted_masked](Images/1raster.png) ![plotted_masked](Images/1masked.png) 
 &nbsp;
 
-As can be seen on the images, some parts of soil with erosion is not coverred with polygons, but all polygons seem to represent soil erosion case.
+As can be seen on the images, some parts of soil with erosion are not coverred with polygons, but all polygons seem to represent soil erosion case.
