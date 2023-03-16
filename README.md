@@ -56,7 +56,7 @@ Now plotting polygons over raster:
 
 As can be seen on the images, some parts of soil with erosion are not coverred with polygons, but all polygons seem to represent soil erosion case.
 ## Approach
-Considering the fact that dataset initially had less than a half of labels for data, and after getting polygons that are in raster bounds that number decreased to less than 20%, there are two possible options: to label data by hand (which would be hard to complete in time), or to use only image and polygons (which is what was desided to do).
+Considering the fact that dataset initially had less than a half of labeled data, and after getting polygons that are in raster bounds that number decreased to less than 20%, there are two possible options: to label data by hand (which would be hard to complete in time), or to use only image and polygons (which is what was desided to do).
 &nbsp;
 
 To create a dataset for this approach I created a binary mask for all polygons that are in raster bounds, cut both mask and raster into 4096 pieces, and resized images from (171, 171, 3) to (128, 128, 3). So resulting dataset had an original image and a corresponding binary mask (369 pairs). I also removed all images (and their masks) that did not have soil erosion (based on the binary mask).
