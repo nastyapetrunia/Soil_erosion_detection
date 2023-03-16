@@ -84,3 +84,8 @@ Created tf.keras model performs poorely, which is not really surprising. Possibl
 
 If the purpouse of a model would be to state whether a particular area of soil has any erosion or not, than we could still use the stated approach, but we would no longer need to monitor how the condition of the soil changes over time - we would only need the data as it is.
 
+As can be seen [from this research](https://www.mdpi.com/2072-4292/11/15/1800), a well labeled data can show great performance. 
+&nbsp;
+
+Considering the fact, that the data comes from Sentinel 2, which has much higer resolution than Google Earth Engine (that was used to collect the data from in the previously mentioned research), the model could give even better results, although the researchers have already reached a very good preformance of the model.
+
