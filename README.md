@@ -24,7 +24,7 @@ Given dataframe consists of 935 rows and 7 columns
 ![c_d_c](Images/code_description_count.png)
 &nbsp;
 
-Simply relying on dataset makes it not obvious, so a better way to find out is to actually visualise given polygons. At first, lets look at them separately.
+Simply analysing dataset makes it not obvious, so a better way to find out is to actually visualise given polygons. At first, lets look at them separately.
 &nbsp;
 
 ![polygons](Images/raw_polygons.png)
@@ -69,9 +69,10 @@ To create a dataset for this approach I created a binary mask for all polygons t
 &nbsp;
 
 ## Model and Results
-Created tf.keras model performs poorely, which is not really surprising. Possible ways to build a model that could perform well would be getting more data or using transfer learning (e.g. Mask R-CNN).
+Created tf.keras model performs poorely, which is not really surprising. Possible ways to build a model that could perform well would be getting more data or using transfer learning (e.g. [Mask R-CNN](https://medium.com/@c_61011/transfer-learning-with-mask-r-cnn-f50cbbea3d29)).
 &nbsp;
 
 ![model_accuracy](Images/model_accuracy.png) ![model_loss](Images/model_loss.png) 
 &nbsp;
 
+If the goal 
