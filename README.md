@@ -75,4 +75,4 @@ Created tf.keras model performs poorely, which is not really surprising. Possibl
 ![model_accuracy](Images/model_accuracy.png) ![model_loss](Images/model_loss.png) 
 &nbsp;
 
-If the goal 
+This approach can be 
